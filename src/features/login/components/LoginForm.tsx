@@ -35,11 +35,12 @@ export function LoginForm() {
                 component="form"
                 onSubmit={handleSubmit}
                 sx={{
-                    bgcolor: "#222425",
-                    my: 4,
-                    mx: "auto",
+                    bgcolor: "#ffffff",
+                    mx: "40%",
+                    minWidth: "20%",
                     p: 4,
                     borderRadius: 2,
+                    boxShadow: 3
                 }}>
                 <Grid container spacing={2} direction="column" >
 

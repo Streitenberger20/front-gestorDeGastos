@@ -20,7 +20,7 @@ export function LoginInput(props: LoginInputProps) {
             sx={{
                 /* Texto */
                 '& .MuiInputBase-input': {
-                    color: '#ffffff',
+                    color: '#000000',
                 },
 
                 /* Label */
@@ -31,7 +31,7 @@ export function LoginInput(props: LoginInputProps) {
                 /* Borde */
                 '& .MuiOutlinedInput-root': {
                     '& fieldset': {
-                        borderColor: '#6a0303',
+                        borderColor: '#d60606',
                     },
                     '&:hover fieldset, &.Mui-focused fieldset': {
                         borderColor: '#dd0404',
